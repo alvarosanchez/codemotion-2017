@@ -1,0 +1,5 @@
+spring:
+    application:
+        name: configclient1
+    profiles:
+      active: development

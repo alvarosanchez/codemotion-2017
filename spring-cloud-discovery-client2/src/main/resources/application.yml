@@ -1,0 +1,10 @@
+server:
+  port: 7772
+
+spring:
+  application:
+    name: my-client
+  cloud:
+    consul:
+      host: localhost
+      port: 8500

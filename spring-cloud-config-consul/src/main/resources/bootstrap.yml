@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: configclient2
+    profiles:
+      active: development
+
+---
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500

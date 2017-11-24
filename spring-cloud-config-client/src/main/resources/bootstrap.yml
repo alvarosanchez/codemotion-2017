@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: configclient1
+    profiles:
+      active: development
+
+---
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
